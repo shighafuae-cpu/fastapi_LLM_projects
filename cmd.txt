@@ -2,3 +2,7 @@ python -m venv penv
 penv\scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+## Mysql
+mysql -u root -p
+create database fastapi_db
